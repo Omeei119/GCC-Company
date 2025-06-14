@@ -13,7 +13,7 @@
 body, html, #root {
   width: 100%;
   height: 100%;
-  overflow-x: hidden; /* 🚫 No horizontal scroll */
+  overflow-x: hidden; /* No horizontal scroll */
   font-family: Arial, sans-serif;
   background-color: white;
 }
@@ -22,7 +22,7 @@ body, html, #root {
   display: flex;
   height: 100vh;
   width: 100vw;
-  overflow: hidden; /* ✅ Prevent content from overflowing horizontally */
+  overflow: hidden; 
 }
 
 /* body, html {
@@ -149,8 +149,15 @@ body, html, #root {
 }
 
 .card {
+  width: 300px; /* or use max-width: 100% if you want flexibility */
+  /* flex-shrink: 0; */
+  margin-left: 20px;
+}
+
+
+/* .card {
   border: 1px solid #ccc;
-  /* padding: 10px; */
+  /* padding: 10px; 
   width: 250%;
   margin-left: 100px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -158,12 +165,12 @@ body, html, #root {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .card img {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 200px;
+  /* object-fit: cover; */
 }
 
 .business-info {
@@ -575,5 +582,24 @@ body, html, #root {
 
   .stars {
     font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column; /* already present, good! */
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 10px;
+    height: auto;          
+    box-shadow: none;      
+    background-color: transparent; 
+    margin-bottom: 0;
+  }
+
+  .content {
+    padding: 10px;
   }
 }
