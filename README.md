@@ -69,3 +69,65 @@ vite.config.ts           # Vite build configuration
 - **Vite**: Modify build and dev server options in `vite.config.ts`.
 - **ESLint**: Linting rules in `eslint.config.js`.
 
+---
+
+## Important Instructions for Collaborators
+
+**Do NOT push code directly to the `main` branch.**
+
+If you are a collaborator with push access, please follow these steps for all your changes:
+
+1. **Always create and work on your own branch**
+
+   - Sync your local `main` branch:
+     ```bash
+     git checkout main
+     git pull origin main
+     ```
+
+   - Create a new branch for your feature or fix:
+     ```bash
+     git checkout -b your-feature-branch
+     ```
+
+2. **Make your changes on your branch**  
+   Stage and commit your work:
+   ```bash
+   git add .
+   git commit -m "Describe your changes"
+   git push origin your-feature-branch
+   ```
+
+3. **Open a Pull Request (PR)**
+   - Go to: https://github.com/Omeei119/GCC-Company
+   - Click "Compare & pull request" for your branch.
+   - Fill in the PR title and description.
+   - Assign reviewers if needed.
+
+4. **Get your PR reviewed**
+   - Wait for at least one review and approval.
+   - **Only after approval, merge your PR into `main`.**
+
+5. **Update your local branches after merge**
+   - Sync your `main` to get the latest changes:
+     ```bash
+     git checkout main
+     git pull origin main
+     ```
+   - Delete your feature branch if it is no longer needed:
+     ```bash
+     git branch -d your-feature-branch
+     git push origin --delete your-feature-branch
+     ```
+
+### Summary
+
+- **Never push directly to `main`**
+- **Work on a separate branch**
+- **Open a Pull Request for all changes**
+- **Merge to `main` only after review and approval**
+- **Keep your local repository up to date**
+
+---
+
+Happy collaborating!
