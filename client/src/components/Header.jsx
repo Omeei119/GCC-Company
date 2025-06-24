@@ -23,12 +23,14 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Company Logo and Brand */}
           <Link to="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
-            <div className="bg-gradient-to-br from-green-500 to-blue-600 p-2 rounded-xl shadow-md">
-              <Zap className="h-8 w-8 text-white" />
-            </div>
+            <img
+              src="assets/logo.png" // or {logo} if imported
+              alt="GreenCharge Logo"
+              className="h-10 w-10 object-contain rounded-xl shadow-md"
+            />
             <div>
-              <h1 className="text-xl font-bold text-gray-900">GreenCharge</h1>
-              <p className="text-xs text-gray-500 uppercase tracking-wide">Electric Vehicles</p>
+              <h1 className="text-xl font-bold text-gray-900">Green Charge Company</h1>
+              <p className="text-xs text-gray-500 uppercase tracking-wide">Energy that Cares , Powered by Inovation</p>
             </div>
           </Link>
 
@@ -38,11 +40,10 @@ const Header = () => {
               <Link
                 key={item.name}
                 to={item.href}
-                className={`font-medium transition-colors ${
-                  isActive(item.href)
+                className={`font-medium transition-colors ${isActive(item.href)
                     ? 'text-green-600 border-b-2 border-green-600 pb-1'
                     : 'text-gray-700 hover:text-green-600'
-                }`}
+                  }`}
               >
                 {item.name}
               </Link>
@@ -59,7 +60,7 @@ const Header = () => {
               <span>Email</span>
             </a>
             <a
-              href="tel:+1234567890"
+              href="tel:+9975651709"
               className="flex items-center space-x-2 bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors"
             >
               <Phone className="h-4 w-4" />
@@ -85,17 +86,16 @@ const Header = () => {
                   key={item.name}
                   to={item.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className={`block px-4 py-2 rounded-lg transition-colors ${
-                    isActive(item.href)
+                  className={`block px-4 py-2 rounded-lg transition-colors ${isActive(item.href)
                       ? 'bg-green-100 text-green-700 font-medium'
                       : 'text-gray-700 hover:bg-gray-100'
-                  }`}
+                    }`}
                 >
                   {item.name}
                 </Link>
               ))}
             </nav>
-            
+
             {/* Mobile Contact Buttons */}
             <div className="mt-4 px-4 space-y-2">
               <a
@@ -106,7 +106,7 @@ const Header = () => {
                 <span>Email Us</span>
               </a>
               <a
-                href="tel:+1234567890"
+                href="tel:+9975651709"
                 className="flex items-center justify-center space-x-2 bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors"
               >
                 <Phone className="h-4 w-4" />

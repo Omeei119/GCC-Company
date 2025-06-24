@@ -12,12 +12,12 @@ const CompanyInfo = () => {
     {
       icon: <Users className="w-6 h-6 text-green-600" />,
       label: "Total Number of Employees",
-      value: "4 People"
+      value: "5 People"
     },
     {
       icon: <Calendar className="w-6 h-6 text-purple-600" />,
       label: "GST Registration Date",
-      value: "19-05-2025"
+      value: "NA"
     },
     {
       icon: <FileText className="w-6 h-6 text-red-600" />,
@@ -27,12 +27,12 @@ const CompanyInfo = () => {
     {
       icon: <DollarSign className="w-6 h-6 text-yellow-600" />,
       label: "Annual Turnover",
-      value: "0"
+      value: "NA"
     },
     {
       icon: <Globe className="w-6 h-6 text-indigo-600" />,
       label: "Import Export Code (IEC)",
-      value: "AAHCE*****"
+      value: "NA"
     }
   ];
 

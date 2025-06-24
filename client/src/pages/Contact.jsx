@@ -49,17 +49,17 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6 text-blue-600" />,
       title: "Phone",
-      details: ["+91 12345 67890", "+91 98765 43210"]
+      details: ["+91 9975651709"]
     },
     {
-      icon: <Mail className="w-6 h-6 text-purple-600" />,
+      icon: <Mail className="w-6 h-6 text-whitered-600" />,
       title: "Email",
       details: ["info@greencharge.com", "sales@greencharge.com"]
     },
     {
       icon: <Clock className="w-6 h-6 text-orange-600" />,
       title: "Business Hours",
-      details: ["Monday - Friday: 9:00 AM - 6:00 PM", "Saturday: 9:00 AM - 2:00 PM", "Sunday: Closed"]
+      details: ["Monday - Friday: 9:00 AM - 5:00 PM", "Saturday: 9:00 AM - 1:00 PM", "Sunday: Closed"]
     }
   ];
 
@@ -232,11 +232,11 @@ const Contact = () => {
                 <p className="mb-6">Our sales team is ready to help you find the perfect electric vehicle solution.</p>
                 <div className="space-y-3">
                   <a
-                    href="tel:+1234567890"
+                    href="tel:+9975651709"
                     className="flex items-center space-x-3 text-green-100 hover:text-white transition-colors"
                   >
                     <Phone className="w-5 h-5" />
-                    <span>+91 12345 67890</span>
+                    <span>+91 9975651709</span>
                   </a>
                   <a
                     href="mailto:sales@greencharge.com"

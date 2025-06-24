@@ -12,12 +12,12 @@ const About = () => {
     {
       icon: <Users className="w-6 h-6 text-green-600" />,
       label: "Total Number of Employees",
-      value: "4 People"
+      value: "5 People"
     },
     {
       icon: <Calendar className="w-6 h-6 text-purple-600" />,
       label: "GST Registration Date",
-      value: "19-05-2025"
+      value: "NA"
     },
     {
       icon: <FileText className="w-6 h-6 text-red-600" />,
@@ -27,12 +27,12 @@ const About = () => {
     {
       icon: <DollarSign className="w-6 h-6 text-yellow-600" />,
       label: "Annual Turnover",
-      value: "1.5 - 5 Cr"
+      value: "NA"
     },
     {
       icon: <Globe className="w-6 h-6 text-indigo-600" />,
       label: "Import Export Code (IEC)",
-      value: "AAHCE*****"
+      value: "NA"
     }
   ];
 
@@ -51,7 +51,7 @@ const About = () => {
     {
       icon: <Award className="w-8 h-8 text-purple-600" />,
       title: "Our Values",
-      description: "Innovation, sustainability, quality, and customer satisfaction are at the core of everything we do at GreenCharge Company."
+      description: "Innovation, sustainability, quality, and customer satisfaction are at the core of everything we do at Green Charge Company."
     }
   ];
 
@@ -60,9 +60,9 @@ const About = () => {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-green-50 to-blue-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">About GreenCharge</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">About Green Charge Company</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Leading the electric vehicle revolution with innovative, sustainable transportation solutions since 2023.
+            Leading the electric vehicle revolution with innovative, sustainable transportation solutions since 2024.
           </p>
         </div>
       </section>

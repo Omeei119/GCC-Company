@@ -40,18 +40,23 @@ const Footer = () => {
           {/* Company Information */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-3 mb-4">
-              <div className="bg-gradient-to-br from-green-500 to-blue-600 p-2 rounded-xl">
-                <Zap className="h-6 w-6 text-white" />
-              </div>
+              
+                <img
+                  src="assets/logo.png" // or {logo} if imported
+                  alt="GreenCharge Logo"
+                  className="h-10 w-10 object-contain rounded-xl shadow-md"
+                  
+                />
+              
               <div>
-                <h3 className="text-lg font-bold">GreenCharge</h3>
-                <p className="text-xs text-gray-400 uppercase tracking-wide">Electric Vehicles</p>
+                <h3 className="text-lg font-bold">Green Charge Company</h3>
+                <p className="text-xs text-gray-500 uppercase tracking-wide">Energy that Cares , Powered by Inovation</p>
               </div>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Leading manufacturer of electric vehicles, providing sustainable and efficient transportation solutions for urban mobility since 2025.
+              Leading manufacturer of electric vehicles, providing sustainable and efficient transportation solutions for urban mobility since 2024.
             </p>
-            
+
             {/* Contact Information */}
             <div className="space-y-2">
               <div className="flex items-center space-x-3 text-gray-300">
@@ -60,11 +65,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3 text-gray-300">
                 <Phone className="w-4 h-4 text-green-500" />
-                <span className="text-sm">+91 12345 67890</span>
+                <span className="text-sm">+91 9975651709</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-300">
                 <Mail className="w-4 h-4 text-green-500" />
-                <span className="text-sm">info@greencharge.com</span>
+                <span className="text-sm">@greencharge.com</span>
               </div>
             </div>
           </div>
@@ -144,7 +149,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © {currentYear} GreenCharge Company. All rights reserved.
+              © 2025 Green Charge Company. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-green-400 text-sm transition-colors">

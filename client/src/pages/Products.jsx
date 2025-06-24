@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Battery, Zap, Shield, Award, ChevronRight, Star } from 'lucide-react';
+import { Battery, Recycle, Shield, Award, ChevronRight, Star } from 'lucide-react';
 
 const Products = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -181,7 +181,7 @@ const Products = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Battery className="w-8 h-8 text-green-600" />
+                <Battery className="w-8 h-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Long Battery Life</h3>
               <p className="text-gray-600">Advanced lithium batteries with 3000+ charge cycles</p>
@@ -189,10 +189,10 @@ const Products = () => {
             
             <div className="text-center">
               <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Zap className="w-8 h-8 text-blue-600" />
+                <Recycle className="w-8 h-8 text-green-600 mb-2" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Fast Charging</h3>
-              <p className="text-gray-600">Quick charging technology for minimal downtime</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Energy Recycling</h3>
+              <p className="text-gray-600"> Captures and reuses energy to improve efficiency </p>
             </div>
             
             <div className="text-center">
@@ -221,10 +221,10 @@ const Products = () => {
           <p className="text-xl text-green-100 mb-8">Contact us today for personalized quotes and detailed product information</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+1234567890"
+              href="tel:+9975651709"
               className="inline-flex items-center px-8 py-3 bg-white text-green-600 font-medium rounded-lg hover:bg-gray-100 transition-colors"
             >
-              Call Now: +91 12345 67890
+              Call Now: +91 9975651709
             </a>
             <a
               href="mailto:info@greencharge.com"
