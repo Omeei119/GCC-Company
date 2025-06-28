@@ -1,5 +1,6 @@
 # GCC-Company
 
+Live link - https://gcc-company.netlify.app/
 ## Project Structure (client side)
 
 ```
